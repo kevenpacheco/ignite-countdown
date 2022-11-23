@@ -23,4 +23,17 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 400;
     font-size: 1rem;
   }
+
+  #root {
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+
+  @media (max-width: 768px) {
+    html {
+      font-size: 87.5%;
+    }
+  }
 `
