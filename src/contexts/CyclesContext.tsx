@@ -56,7 +56,7 @@ export function CyclesContextProvider({
       return initialArg
     },
   )
-  console.log(cyclesState)
+
   const { cycles, activeCycleId } = cyclesState
 
   const activeCycle = cycles.find((cycle) => cycle.id === activeCycleId)
